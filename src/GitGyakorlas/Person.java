@@ -118,4 +118,11 @@ public class Person {
     public void setWeb(String web) {
         this.web = web;
     }
+
+    public Person(String first_name, String last_name, String city, String email) {
+        this.first_name = first_name;
+        this.last_name = last_name;
+        this.city = city;
+        this.email = email;
+    }
 }
